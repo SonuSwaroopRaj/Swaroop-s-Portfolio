@@ -2,6 +2,7 @@
 FROM node:alpine AS build
 WORKDIR /app
 
+EXPOSE 8080
 # Copy only package.json and package-lock.json
 COPY package*.json ./
 
