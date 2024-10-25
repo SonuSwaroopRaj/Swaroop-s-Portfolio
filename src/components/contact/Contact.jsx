@@ -1,7 +1,6 @@
 import React from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
